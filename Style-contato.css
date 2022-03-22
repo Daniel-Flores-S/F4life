@@ -86,7 +86,7 @@ footer {
 
 .copyright {
 	color: #eeebeb;
-	font-size: 13px;
+	font-size: 15px;
 	margin: 20px 0 0;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -112,3 +112,34 @@ main form p {
 
 	width: 100%;
 }
+
+.icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	height: 100px;
+
+}
+
+.icons img {
+	width: 20px;
+	height: 20px;
+}
+
+.icon {
+	display: flex;
+	margin-top: 20px;
+	width: 100px;
+	justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
