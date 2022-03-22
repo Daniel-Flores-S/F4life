@@ -1,0 +1,114 @@
+header {
+	align-items: center;
+	background: #132235;
+	justify-content: space-around;
+	display: flex;
+	height: 100px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header button {
+	background: #0d8fc2;
+	border: none;
+	border-radius: 50px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+
+	cursor: pointer;
+	font-size: 0.90rem;
+	font-weight: bold;
+	height: 50%;
+	padding: 0 1rem;
+	width: 187px;
+}
+
+nav li {
+	display: inline;
+	margin: 30px 30px 30px 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #edf5f5;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	margin-top: 50px;
+}
+
+nav a:hover {
+	color: #0d8fc2;
+	text-decoration: underline;
+}
+
+form {
+	margin: 50px 300px 150px 300px;
+	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 92%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.enviar {
+	align-items: center;
+	width: 50%;
+	padding: 15px 0;
+	background: #0d8fc2;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 20px;
+	transition: 1s all;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.enviar:hover {
+	background: rgb(5, 60, 110);
+	transform: scale(0.99, 1);
+}
+
+footer {
+	text-align: center;
+	background: rgb(19, 34, 53);
+	padding: 40px 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.copyright {
+	color: #eeebeb;
+	font-size: 13px;
+	margin: 20px 0 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.logo1 {
+	background: rgb(19, 34, 53);
+	height: 100px;
+}
+
+main form p {
+	/*Mensagen de erro*/
+	color: #ff0000;
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+
+.btn-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 100%;
+}

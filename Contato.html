@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Contato - F4 LIFE</title>
+
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="Style-contato.css">
+</head>
+
+<body>
+	<header>
+		<img class="logo" src="Imagens/Logo F4 LIFE 3.png" alt="">
+		<div class="caixa">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="contato.html">Contato</a></li>
+					<li><a href="Quem somos.html">Quem somos</a></li>
+				</ul>
+			</nav>
+		</div>
+		<button>BOOK NOW</button>
+	</header>
+	<main>
+		<form>
+			<label for="nomesobrenome">Nome e sobrenome</label>
+			<input type="text" id="nomesobrenome" class="input-padrao" required>
+			<p id="msmName"></p>
+
+			<label for="email">Email</label>
+			<input type="email" id="email" class="input-padrao" placeholder="seuemail@dominio.com" required>
+			<p id="msmEmail"></p>
+
+			<label for="telefone">Telefone</label>
+			<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+			<p id="msmTelefone"></p>
+
+			<label for="mensagem">Mensagem</label>
+			<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+			<p id="msmMensagem"></p>
+			<div class="btn-container">
+				<input type="submit" value="Enviar formulário" class="enviar" onclick="myFunction()">
+			</div>
+
+		</form>
+	</main>
+</body>
+
+<footer>
+	<img class="logo1" src="Imagens/Logo F4 LIFE 3.png">
+	<p class="copyright">&copy; Copyright 2022</p>
+</footer>
+<script src="script.js"></script>
+
+</html>
